@@ -1,0 +1,155 @@
+# SIMPLE CALCULATOR – PROJECT REPORT
+
+## 1. Introduction
+
+The **Simple Calculator** is a command-line application developed using Python. The project performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+
+The calculator uses **Object-Oriented Programming (OOP)** by creating a `Calculator` class with separate methods for each arithmetic operation. The application provides a menu-driven interface that allows the user to select an operation repeatedly until they choose to exit.
+
+## 2. Objective
+
+The main objective of this project is to develop a simple and interactive calculator using Python.
+
+The project aims to:
+
+* Perform basic arithmetic operations.
+* Implement a menu-driven command-line interface.
+* Apply Object-Oriented Programming concepts.
+* Accept numerical input from the user.
+* Handle division by zero.
+* Provide an exit option for the user.
+
+## 3. Tools and Technologies Used
+
+Tool / Technology            
+---------------------
+Python                       
+Command Line Interface (CLI) 
+Object-Oriented Programming  
+
+## 4. Project Features
+
+The calculator provides the following features:
+
+1. **Addition** – Adds two numbers.
+2. **Subtraction** – Subtracts the second number from the first.
+3. **Multiplication** – Multiplies two numbers.
+4. **Division** – Divides the first number by the second.
+5. **Division by Zero Handling** – Displays a message when the user attempts to divide by zero.
+6. **Exit Option** – Allows the user to terminate the application.
+7. **Invalid Choice Handling** – Displays a message when an invalid menu option is entered.
+
+## 5. Steps Performed
+### Step 1: Taking User Input
+The program accepts two numbers from the user using the `input()` function.
+The values are converted into floating-point numbers using `float()` so that the calculator can also work with decimal values.
+
+### Step 2: Creating the Calculator Class
+A `Calculator` class was created to organize all arithmetic operations.
+The class contains four methods:
+
+* `addition()`
+* `subtraction()`
+* `multiplication()`
+* `division()`
+
+### Step 3: Implementing Arithmetic Operations
+Each method performs its respective mathematical operation and returns the calculated result.
+
+### Step 4: Creating an Object
+An object named `c1` was created from the `Calculator` class.
+This object is used to access the different calculator methods.
+
+### Step 5: Creating the Menu
+A menu is displayed to the user with five choices:
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+
+### Step 6: Processing User Choice
+The program uses `if-elif` statements to identify the selected operation and call the appropriate method.
+
+### Step 7: Handling Division by Zero
+Before performing division, the program checks whether the second number is zero.
+
+If the value is zero, the program displays:
+
+**"Division by zero is not allowed"**
+
+Otherwise, it performs the division normally.
+
+### Step 8: Exit and Invalid Input
+
+The `while` loop keeps the calculator running until the user selects option 5.
+
+If an invalid option is entered, the program displays:
+
+**"In-valid choice"**
+
+## 6. Python Concepts Used
+The following Python concepts were applied in this project:
+
+* Variables
+* User Input and Output
+* Data Type Conversion
+* Classes and Objects
+* Methods
+* `while` loop
+* `if-elif-else` statements
+* Conditional checking
+* Return statements
+* Basic arithmetic operators
+* Basic error handling
+
+## 7. Working of the Application
+The application follows a simple flow:
+
+**Start → Enter Two Numbers → Display Menu → Select Operation → Perform Calculation → Display Result → Display Menu Again → Exit**
+
+The program continues this process until the user selects the **Exit** option.
+
+## 8. Sample Output
+
+Enter first no: 20
+Enter second no: 5
+
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Exit
+
+Enter your choice: 1
+Addition = 25.0
+
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Exit
+
+Enter your choice: 4
+Division = 4.0
+
+### Division by Zero Example
+
+Enter your choice: 4
+Division by zero is not allowed
+
+### Exit Example
+
+Enter your choice: 5
+....Exit....
+
+## 9. Outcome
+
+The project successfully resulted in a **functional command-line calculator** capable of performing four basic arithmetic operations.
+Through this task, practical understanding was gained in **Python programming, Object-Oriented Programming, classes and objects, loops, conditional statements, user input, and basic error handling**.
+
+## 10. Conclusion
+
+The Simple Calculator project provided hands-on experience in developing a basic Python application using Object-Oriented Programming concepts. The menu-driven approach makes the application interactive and easy to use, while the division-by-zero check provides basic error handling.
+This project helped strengthen fundamental Python programming and problem-solving skills and served as a practical implementation of concepts learned during the **Python Developer Internship at Synent Technologies**.
